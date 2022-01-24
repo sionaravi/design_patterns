@@ -4,14 +4,13 @@ package strategy_design;
 	import java.util.Collections;
 
 	/*
-	 *  
 	 * used this video for code https://youtu.be/467BD-yuvmk
 	 */
 	public class BubbleSort implements SortBehavior {
 		
 		public ArrayList<String> sort(ArrayList<String> data) {
 			
-			/*for (int j = 0; j < data.size() - 1; j++ ) {
+			for (int j = 0; j < data.size() - 1; j++ ) {
 				
 				for (int i = 0; i < data.size()-1; i++) {
 					
