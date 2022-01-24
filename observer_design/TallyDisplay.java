@@ -13,13 +13,13 @@ public class TallyDisplay implements Observer{
 	private HashMap<String, Integer> votes;
 	
 	/**
-     * This is a constructor for the display, registers the poll
-     */
+     	* This is a constructor for the display, registers the poll
+     	*/
 	public TallyDisplay(Subject poll) {
 		this.poll = poll;
-		poll.registerObserver(this);
-		
+		poll.registerObserver(this);	
 	}
+	
 	/**
 	 * Updates by giving new HashMap information
 	 */
@@ -27,7 +27,6 @@ public class TallyDisplay implements Observer{
         display();
 	}
 	
-
 	/**
 	 *  Will display number of presidents and number of votes
 	 */
