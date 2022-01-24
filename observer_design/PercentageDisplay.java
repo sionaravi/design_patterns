@@ -21,17 +21,14 @@ public class PercentageDisplay implements Observer{
 	public PercentageDisplay(Subject poll) {
 		this.poll = poll;
 		poll.registerObserver(this);
-		display();
-		
+		display();	
 	}
 	
 	/**
 	 *  Updates by giving new HashMap information
 	 */
 	public void update( HashMap<String, Integer> votes) {
-		
 		display();
-		
 	}
 	
 	/**
@@ -39,10 +36,5 @@ public class PercentageDisplay implements Observer{
 	 */
 	private void display() {
 		
-		
-	}
-	
+	}	
 }
-	
-
-
