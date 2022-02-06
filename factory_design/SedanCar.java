@@ -5,7 +5,6 @@ package factory_design;
  * This is the class for SedanCar where the accessories are put together for sedan cars.
  * @author Siona Ravi
  */
-
 public class SedanCar extends Car {
 
     /**
