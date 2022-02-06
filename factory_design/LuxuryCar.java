@@ -5,12 +5,6 @@ package factory_design;
  * @author Siona Ravi
  */
 public class LuxuryCar extends Car{
-	
-    public LuxuryCar(String make, String model) {
-        super(make, model);
-        addAccessories();
-        assemble();
-    }
 
     /**
      * Overwrites and displays "Adding a Supped Up Engine"
@@ -40,5 +34,17 @@ public class LuxuryCar extends Car{
         accessories.add(Accessories.HIGH_END_SOUND);
         accessories.add(Accessories.TRUNK_ORGANIZER);
         accessories.add(Accessories.BLUE_TOOTH);
+	  
+   /**
+    * This method  will make the car based on the model passed it.
+    * And It will call assemble the car.
+    * @param make
+    * @param model
+    */
+    public LuxuryCar(String make, String model) {
+        super(make, model);
+        addAccessories();
+        assemble();
+    }
     }
 }
