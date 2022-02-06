@@ -4,15 +4,8 @@ package factory_design;
  * This is the class for SmallCar where the accessories are put together for small cars.
  * @author Siona Ravi
  */
-
 public class SmallCar extends Car {
 	
-    public SmallCar(String make, String model) {
-        super(make, model);
-        addAccessories();
-        assemble();
-    }
-
     /**
      * Adds the frame by displaying "Adding a small frame"
      */
@@ -26,6 +19,18 @@ public class SmallCar extends Car {
     protected void addAccessories() {
         accessories.add(Accessories.FLOOR_MATS);
         accessories.add(Accessories.PHONE_CHARGER);
+	    
+     /**
+     * This method  will make the car based on the model passed it.
+     * And It will call assemble the car.
+     * @param make
+     * @param model
+     */	    
+    public SmallCar(String make, String model) {
+        super(make, model);
+        addAccessories();
+        assemble();
+    }
 
     }
 }
