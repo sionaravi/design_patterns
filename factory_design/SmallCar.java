@@ -30,7 +30,8 @@ public class SmallCar extends Car {
         super(make, model);
         addAccessories();
         assemble();
-    }
+     }
 
-    }
+   }
+
 }
