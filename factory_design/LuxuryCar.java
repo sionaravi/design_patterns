@@ -4,7 +4,6 @@ package factory_design;
  * This is the class for LuxuryCar where the accessories are put together for luxury cars.
  * @author Siona Ravi
  */
-
 public class LuxuryCar extends Car{
 	
     public LuxuryCar(String make, String model) {
@@ -14,17 +13,17 @@ public class LuxuryCar extends Car{
     }
 
     /**
-     * Adds the frame by displaying "Adding a beautiful frame"
-     */
-    protected void addFrame() {
-        System.out.println("Adding a beautiful frame");
-    }
-
-    /**
      * Overwrites and displays "Adding a Supped Up Engine"
      */
     protected void addEngine() {
         System.out.println("Adding a Supped Up Engine");
+    }
+	
+    /**
+     * Adds the frame by displaying "Adding a beautiful frame"
+     */
+    protected void addFrame() {
+        System.out.println("Adding a beautiful frame");
     }
 
     /**
