@@ -8,14 +8,14 @@ package factory_design;
 
 public class SedanCar extends Car {
 
-	/**
+    /**
      * Adds the frame by displaying "Adding a three part frame"
      */
     protected void addFrame() {
         System.out.println("Adding a three part frame");
     }
 	
-	/**
+    /**
      * Adds the following accessories from enum
      */
     protected void addAccessories() {
