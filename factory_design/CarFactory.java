@@ -3,7 +3,6 @@ package factory_design;
 /**
  * This is a CarFactory class where the cars are made
  * @author Siona Ravi
- *
  */
 public class CarFactory {
     static Car car;
