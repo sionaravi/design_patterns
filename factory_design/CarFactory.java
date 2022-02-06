@@ -5,7 +5,6 @@ package factory_design;
  * @author Siona Ravi
  *
  */
-
 public class CarFactory {
     static Car car;
     
@@ -27,7 +26,6 @@ public class CarFactory {
             car = new LuxuryCar(make, model);
         }
         return car;
-
     }
 
 }
