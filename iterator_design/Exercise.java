@@ -29,7 +29,6 @@ public class Exercise {
      * @param muscle
      */
     public void addTargetMuscles(String muscle) {
-       
     }
     
     /**
@@ -37,7 +36,6 @@ public class Exercise {
      * @param muscle
      */
     public void removeTargetMuscle(String muscle) {
-
     }
     
     /**
